@@ -5,8 +5,7 @@ import {
     useAlgebraPoolToken0,
     useAlgebraPoolToken1,
 } from '@/generated';
-import { InitialPoolFee } from '@cryptoalgebra/integral-sdk';
-import { Pool } from '@cryptoalgebra/integral-sdk';
+import { Pool } from "@cryptoalgebra/x-trade-sdk";
 import { Address } from 'wagmi';
 import { useCurrency } from '@/hooks/common/useCurrency';
 import { useMemo } from 'react';
@@ -95,7 +94,7 @@ export function usePool(
                 new Pool(
                     token0.wrapped,
                     token1.wrapped,
-                    globalState[2] as InitialPoolFee,
+                    globalState[2],
                     globalState[0].toString(),
                     Number(liquidity),
                     globalState[1],

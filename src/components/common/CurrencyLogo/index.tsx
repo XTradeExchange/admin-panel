@@ -1,4 +1,4 @@
-import { Currency } from "@cryptoalgebra/integral-sdk";
+import { Currency } from "@cryptoalgebra/x-trade-sdk";
 import React from "react";
 import { Address } from "wagmi";
 import EthLogo from '@/assets/tokens/ether.svg'

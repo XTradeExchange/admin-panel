@@ -9,7 +9,7 @@ import { FixedSizeList } from 'react-window'
 import { Address, isAddress } from 'viem'
 import { useAccount, useBalance } from 'wagmi'
 import CurrencyLogo from '../CurrencyLogo'
-import { ADDRESS_ZERO, Currency, ExtendedNative, Token } from '@cryptoalgebra/integral-sdk'
+import { ADDRESS_ZERO, Currency, ExtendedNative, Token } from "@cryptoalgebra/x-trade-sdk"
 import { formatCurrency } from '@/utils/common/formatCurrency'
 import { useTokensState } from '@/state/tokensStore'
 import { Copy } from 'lucide-react'

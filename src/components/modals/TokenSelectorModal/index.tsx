@@ -1,6 +1,6 @@
 import { TokenSelector } from "@/components/common/TokenSelector" 
 import { Credenza, CredenzaBody, CredenzaClose, CredenzaContent, CredenzaHeader, CredenzaTitle, CredenzaTrigger } from "@/components/ui/credenza"
-import { Currency } from "@cryptoalgebra/integral-sdk"
+import { Currency } from "@cryptoalgebra/x-trade-sdk"
 
 interface ITokenSelectorModal {
   isOpen: boolean, 

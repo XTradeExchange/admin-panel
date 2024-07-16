@@ -1,6 +1,6 @@
 import TokenSelectorModal from "@/components/modals/TokenSelectorModal";
 import { useMemo, useState } from "react";
-import { Currency, Token } from "@cryptoalgebra/integral-sdk";
+import { Currency, Token } from "@cryptoalgebra/x-trade-sdk";
 import { Control, Controller, SubmitHandler, useForm } from 'react-hook-form'
 import { ChevronRight, X } from "lucide-react";
 import { useAccount, useBalance } from "wagmi";

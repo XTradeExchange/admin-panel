@@ -7,7 +7,7 @@ import { useApprove } from "@/hooks/common/useApprove";
 import { useTransitionAwait } from "@/hooks/common/useTransactionAwait";
 import { ApprovalState } from "@/types/approve-state";
 import { IncentiveKey } from "@/types/incentive-key";
-import { Token, tryParseAmount } from "@cryptoalgebra/integral-sdk";
+import { Token, tryParseAmount } from "@cryptoalgebra/x-trade-sdk";
 import { useState } from "react";
 import { parseUnits } from "viem";
 import { useContractWrite, usePrepareContractWrite } from "wagmi";

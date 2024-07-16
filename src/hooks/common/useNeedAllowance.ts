@@ -1,4 +1,4 @@
-import { Currency, CurrencyAmount } from "@cryptoalgebra/integral-sdk";
+import { Currency, CurrencyAmount } from "@cryptoalgebra/x-trade-sdk";
 import { Address, erc20ABI, useAccount, useContractRead } from "wagmi";
 
 export function useNeedAllowance(currency: Currency | null | undefined, amount: CurrencyAmount<Currency> | undefined, spender: Address | undefined) {

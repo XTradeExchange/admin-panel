@@ -1,4 +1,4 @@
-import { Currency, CurrencyAmount } from "@cryptoalgebra/integral-sdk";
+import { Currency, CurrencyAmount } from "@cryptoalgebra/x-trade-sdk";
 import { useNeedAllowance } from "./useNeedAllowance";
 import { ApprovalState, ApprovalStateType } from "@/types/approve-state";
 import { useMemo } from "react";
